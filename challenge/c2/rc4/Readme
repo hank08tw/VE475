@@ -1,0 +1,11 @@
+This cipher is based on RC4 algorithm. This algorithm first generates a sequence of 0, 1, 2, ..., 255 and then mess it up. Using the messed-up sequence and the input key, we can get a keystream and can use it to encrypt and decrypt texts. 
+
+In this cipher, we allow input of any length of plaintext which the content does not exceed the alphabet. However, when it comes to the ciphertext, we only allow a ciphertext of an even number of bits and can only have 0~9 and a~f. My default key is given as "EAV7xejGE9V7Vs98".Below is the usage of this cipher.
+
+usage: c2 [ --generate | --encrypt <message> --key <key> | --decrypt <message> --key <key> ]
+arguments: 
+	--generate: generate generate a key
+	--encrypt: encrypt a message
+	--decrypt: decrypt a message
+	--key: use the specified key to encrypt or decrypt
+
