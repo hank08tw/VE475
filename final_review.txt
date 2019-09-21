@@ -1,0 +1,62 @@
+signatures: DSA and RSA (two most common ones) DSA and RSA ok
+
+Zero knowledge scheme -> signature scheme (last slide of c5) ???     
+
+Secret sharing: ok
+1. launch a nuclear weapon & business secret in large company 
+2. enforce cooperation 
+3. Prevent someone to make decision by one person 
+
+Tripartite key exchange protocol: the final result is protected by DLP, x_i is protected by ECDLP. -> match the difficulty of DLP and ECDLP ???
+
+2 more questions: quantum cryptography and side channel attack
+
+What are Bra? What are Ket?
+Ket is a column vector. Bra is the conjugate transpose of Ket. (Give example)
+
+What is a qubit
+
+Quantum gate
+
+Two examples of side channel attacks?
+1. Regular(cash)Timing attack 
+2. Power analysis 
+
+How to prevent side channel attack?
+Can never prevent side channel attack, but can slow down the attack
+Square and multiply
+
+
+advantages of PKI public key infrastructure
+Verify people's identity through the Internet and minimize fraud.Minimize the risk of information being read during transmission to reach privacy of the message.Ensure the integrity of the message, such as electronic communications. Minimize the risk of alteration or falsification during transmission.Provide a guarantee of transactions that people cannot back down in electronic transactions.
+
+components of PKI
+Certificate authorities: the third party to issue digital certificatesDigital certificates: verifiable files to represent identityKey backup system: backup users’ keysCertificate abolish system: abolish users' certificatesPKI APIs: interface for applications
+
+Why there is no perfect random oracle?
+1. infinite possible inputs
+2. independence of outputs
+3. finite algorithm -> infinite description
+
+Shannon entropy H(X)=-\sum p_ilog(p_i)
+
+parity check matrix H???
+How to check the received bits? GH^T = 0 He^T=0!!!???
+
+
+Understand how to use the least significant bit in Steganography.???
+
+Difference between cryptography and steganography
+Cryptography encrypts the content itself. Steganography conceals the way to transfer it in order to reduce people's attention
+Cryptography will change the original structure of the message, while the steganography will not.
+
+
+Daul lattice ???
+
+Problem MQ
+MQ: Solve the system p1(x) = p2(x) = ... = pm(x) = 0, where each pi is a quadratic in x = (x1, . . . , xn). All coefficients and variables are in Fq, the field with q elements.Problem MQ is NP-complete.
+list three MAC system
+CBC-MAC, ONE-TIME MAC,CMAC, PMAC, HMAC,
+
+
+
